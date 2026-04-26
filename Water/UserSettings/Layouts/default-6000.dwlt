@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 260.80005
     height: 812.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -295,16 +295,16 @@ MonoBehaviour:
   m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: FAll (nothing loaded)
+    m_Text: FAll
     m_Image: {fileID: 2800000, guid: 7129268cf102b2f45809905bcb27ce8b, type: 3}
     m_Tooltip: 
-    m_TextWithWhitespace: "FAll (nothing loaded)\u200B"
+    m_TextWithWhitespace: "FAll\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 214
-    y: 79
-    width: 1241
-    height: 596
+    x: 187.2
+    y: 79.200005
+    width: 1086
+    height: 554
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -571,7 +571,7 @@ MonoBehaviour:
     \"m_Id\": \"9ce58b864beb49ad9e9dd9d5efd956e0\"\n    }\n}\n\n{\n    \"m_SGVersion\":
     0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GroupData\",\n    \"m_ObjectId\":
     \"0d86b1be68f74314a552856d650d207f\",\n    \"m_Title\": \"Lerp_Mask\",\n    \"m_Position\":
-    {\n        \"x\": -2083.0,\n        \"y\": 876.9999389648438\n    }\n}\n\n{\n   
+    {\n        \"x\": -2083.19970703125,\n        \"y\": 875.2000122070313\n    }\n}\n\n{\n   
     \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
     \"m_ObjectId\": \"0dbb7c9709c346f7b07a7f769d70eb60\",\n    \"m_Id\": 2,\n   
     \"m_DisplayName\": \"Y\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
@@ -617,8 +617,8 @@ MonoBehaviour:
     \"m_Id\": \"9ce58b864beb49ad9e9dd9d5efd956e0\"\n    }\n}\n\n{\n    \"m_SGVersion\":
     0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GroupData\",\n    \"m_ObjectId\":
     \"180345273f1d44abbf71d4815401b20b\",\n    \"m_Title\": \"SphereMask\",\n   
-    \"m_Position\": {\n        \"x\": -1843.0,\n        \"y\": -102.0\n    }\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
+    \"m_Position\": {\n        \"x\": -1843.2000732421875,\n        \"y\": -103.99999237060547\n   
+    }\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
     \"m_ObjectId\": \"1957491b7053414dbe063888258a85a4\",\n    \"m_Id\": 0,\n   
     \"m_DisplayName\": \"Metallic\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
     \"m_ShaderOutputName\": \"Metallic\",\n    \"m_StageCapability\": 2,\n    \"m_Value\":
@@ -683,7 +683,7 @@ MonoBehaviour:
     \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_LiteralMode\": false\n}\n\n{\n   
     \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GroupData\",\n   
     \"m_ObjectId\": \"255e4b228fe3418da65f6971e1e4824c\",\n    \"m_Title\": \"TopDown_Radius\",\n   
-    \"m_Position\": {\n        \"x\": -2172.0,\n        \"y\": 371.9999694824219\n   
+    \"m_Position\": {\n        \"x\": -2172.0,\n        \"y\": 370.4000244140625\n   
     }\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.SplitNode\",\n   
     \"m_ObjectId\": \"26e8b9f91a9444ca8c057d8c593b52fc\",\n    \"m_Group\": {\n       
     \"m_Id\": \"255e4b228fe3418da65f6971e1e4824c\"\n    },\n    \"m_Name\": \"Split\",\n   
@@ -1210,7 +1210,7 @@ MonoBehaviour:
     ],\n    \"m_EnumValues\": [\n        0\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n   
     \"m_Type\": \"UnityEditor.ShaderGraph.SplitNode\",\n    \"m_ObjectId\": \"cdbab527f87244338feef2041ce95154\",\n   
     \"m_Group\": {\n        \"m_Id\": \"0d86b1be68f74314a552856d650d207f\"\n    },\n   
-    \"m_Name\": \"Split\",\n    \"m_DrawState\": {\n        \"m_Expanded\": true,\n       
+    \"m_Name\": \"Split\",\n    \"m_DrawState\": {\n        \"m_Expanded\": false,\n       
     \"m_Position\": {\n            \"serializedVersion\": \"2\",\n            \"x\":
     -1798.0001220703125,\n            \"y\": 936.0,\n            \"width\": 120.0,\n           
     \"height\": 149.0\n        }\n    },\n    \"m_Slots\": [\n        {\n           
@@ -1765,6 +1765,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/Environment
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -1814,10 +1828,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 45706
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: 45706
+        m_Data: 0
       m_ExpandedIDs:
       - m_Data: -1294
       m_RenameOverlay:
@@ -2408,9 +2421,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.038332697, y: 0.804388, z: -0.052201748, w: -0.59056383}
   m_Size:
-    m_Target: 10.095779
+    m_Target: 12.581178
     speed: 2
-    m_Value: 10.095779
+    m_Value: 12.581178
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2515,7 +2528,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2596,7 +2609,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Shader
+    - Assets/Shader/Unlit
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2606,7 +2619,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Shader
+  - Assets/Shader/Unlit
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\BlackHollow Studios\Unity\Shader_URP_6.3.7\Water
   m_LockTracker:
@@ -2615,12 +2628,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 46080
+    - m_Data: 46098
     m_LastClickedID:
-      m_Data: 46080
+      m_Data: 46098
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45784
+    - m_Data: 45788
+    - m_Data: 46084
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2654,7 +2668,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45784
+    - m_Data: 45788
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2681,9 +2695,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 45706
-    m_LastClickedInstanceID: 45706
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 0
